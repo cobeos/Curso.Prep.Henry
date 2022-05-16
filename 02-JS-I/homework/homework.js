@@ -169,9 +169,7 @@ function redondearHaciaArriba(num) {
 function numeroRandom() {
   //Generar un número al azar entre 0 y 1 y devolverlo
   //Pista: investigá qué hace el método Math.random()
- function getrandom() {
-  return math.random ();
-}
+  return math.random (0,1);
 }
 
 function esPositivo(numero) {
