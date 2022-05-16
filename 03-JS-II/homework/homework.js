@@ -33,10 +33,10 @@ function conection(status) {
     return "Online";
   }
   else if(status === 2) {
-  return "Away;"
+    return "Away";
   }
   else {
-  return "Offline";
+    return "Offline";
   }
 }
 
@@ -51,7 +51,7 @@ function saludo(idioma) {
     return 'Guten Tag!';
   } else if (idioma === 'mandarin') {
     return 'Ni Hao!';
-  } else if(idimoa === 'ingles') {
+  } else if(idioma === 'ingles') {
     return 'Hello!';
   } else {
     return 'Hola!';
@@ -161,9 +161,9 @@ function esVerdadero(valor){
   //si su valor es true y “Soy falso” si su valor es false.
   //Escribe tu código aquí
 if(valor === true) {
-  return "soy verdadero"
+  return "Soy verdadero"
 }
-return "soy falso"
+return "Soy falso"
 }
 
 function tablaDelSeis(){
