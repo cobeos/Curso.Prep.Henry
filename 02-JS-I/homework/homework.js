@@ -1,10 +1,10 @@
 // En estas primeras 6 preguntas, reemplaza `null` por la respuesta
 
 // Crea una variable "string", puede contener lo que quieras:
-const nuevaString = 'hola';
+const nuevaString = 'verde';
 
 // Crea una variable numérica, puede ser cualquier número:
-const nuevoNum = 7;
+const nuevoNum = 8;
 
 // Crea una variable booleana:
 const nuevoBool = true;
@@ -29,7 +29,7 @@ function devolverString(str) {
   // "Return" la string provista: str
   // Tu código:
   return str;
-    
+
 }
 
 function suma(x, y) {
@@ -76,9 +76,13 @@ function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
-  return str1.length === str2.length;
+  if(str1.length == str2.length) {
+    return true;
+  }else{
+    return false;
+  }
+  }
   
-}
 
 function menosQueNoventa(num) {
   // Devuelve "true" si el argumento de la función "num" es menor que noventa
@@ -96,7 +100,10 @@ function mayorQueCincuenta(num) {
   // Devuelve "true" si el argumento de la función "num" es mayor que cincuenta
   // De lo contrario, devuelve "false"
   // Tu código:
-  return num > 50;
+  if (num>50)
+  return true;
+  else 
+  return false;
 }
 
 function obtenerResto(x, y) {
